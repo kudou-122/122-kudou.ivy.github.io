@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+}
+
+.header-title {
+    background-image: url('ski-mountain.jpg'); /* ここで背景画像を指定 */
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0; /* タイトルセクションの高さを調整 */
+    color: #fff;
+    position: relative;
+}
+
+.header-title h1 {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明の背景を追加してテキストを読みやすくします */
+    display: inline-block;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+}
+
+.content {
+    flex: 3;
+    padding-right: 2rem;
+}
+
+section {
+    margin: 2rem 0;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+aside {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+.package {
+    background-color: #e4e4e4;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+#testimonials {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border-left: 4px solid #444;
+}
+
+.testimonial h3 {
+    margin-top: 0;
+}
+
+.testimonial-content {
+    padding-left: 1rem;
+}
+
+.testimonial.beginner {
+    border-left-color: #4CAF50;
+}
+
+.testimonial.intermediate {
+    border-left-color: #FF9800;
+}
+
+.testimonial.advanced {
+    border-left-color: #F44336;
+}
+
+.video-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+
+
