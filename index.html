@@ -3,218 +3,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>スキー体験</title>
+    <title>スキーリゾートサイト</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="header-title">
-            <h1>スキー体験</h1>
-        </div>
+        <h1 class="circle">スキーの魅力について</h1>
         <nav>
             <ul>
-                <li><a href="#home">ホーム</a></li>
-                <li><a href="#packages">スキーパッケージ</a></li>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="resorts.html">リゾート紹介</a></li>
+                <li><a href="shop.html">スキー用品</a></li>
+                <li><a href="school.html">スキースクール</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+                <li><a href="blog.html">ブログ</a></li>
             </ul>
         </nav>
     </header>
-    
-    <main>
-        <div class="content">
-            <section id="home">
-                <h2>最高のスキー体験を提供します</h2>
-                <p>美しい雪山と充実した施設で、素晴らしいスキー旅行を楽しみましょう。</p>
+    <div class="content">
+        <main>
+            <section>
+                <h2>スキー関連の最新ニュース</h2>
+                <p>最新のスキーリゾート情報、イベント、天候予報をお届けします。</p>
+                <ul>
+                    <li>2024年6月18日：今シーズンの初雪が北海道のニセコで観測されました！</li>
+                    <li>2024年6月15日：白馬八方尾根スキー場で新しいゴンドラリフトがオープンしました。</li>
+                    <li>2024年6月10日：苗場スキー場でスキーフェスティバルが開催されました。</li>
+                </ul>
             </section>
-            
-            <section id="packages">
-                <h2>スキーパッケージ</h2>
-                <div class="package">
-                    <h3>初級者向けパッケージ</h3>
-                    <p>初心者でも安心して楽しめるパッケージです。</p>
-                </div>
-                <div class="package">
-                    <h3>中級者向けパッケージ</h3>
-                    <p>中級者に最適なスキープランをご用意しています。</p>
-                </div>
-                <div class="package">
-                    <h3>上級者向けパッケージ</h3>
-                    <p>上級者向けのチャレンジングなコースを体験してください。</p>
-                </div>
+            <section id="weather">
+                <h2>天気予報</h2>
+                <p id="weather-info">Loading weather...</p>
             </section>
-            
-            <section id="testimonials">
-                <h2>スキー体験談</h2>
-                <div class="testimonial beginner">
-                    <h3>初心者の体験談</h3>
-                    <div class="testimonial-content">
-                        <h4>田中太郎さん</h4>
-                        <p>初めてのスキーでしたが、とても楽しかったです！インストラクターの方がとても親切で、すぐに滑れるようになりました。リゾートの施設も充実していて、また行きたいと思います。</p>
-                    </div>
-                </div>
-                <div class="testimonial intermediate">
-                    <h3>中級者の体験談</h3>
-                    <div class="testimonial-content">
-                        <h4>佐藤花子さん</h4>
-                        <p>家族で訪れましたが、子供たちも大満足でした。初心者向けのコースが充実しているので、安心して楽しむことができました。次回は中級者向けのコースにも挑戦したいです。</p>
-                    </div>
-                </div>
-                <div class="testimonial advanced">
-                    <h3>上級者の体験談</h3>
-                    <div class="testimonial-content">
-                        <h4>山田一郎さん</h4>
-                        <p>上級者向けのコースが素晴らしかったです！自然の美しさを感じながら、スリル満点の滑りを楽しむことができました。スキー好きにはたまらないリゾートです。</p>
-                    </div>
-                </div>
+            <section id="ski-days">
+                <h2>スキーに適している日</h2>
+                <p>スキーに適した日付をご紹介します。</p>
+                <ul>
+                    <li>2024年6月25日（土）：白馬八方尾根スキー場、ニセコグラン・ヒラフで晴天予報！</li>
+                    <li>2024年7月1日（土）：苗場スキー場でナイター営業あり！</li>
+                    <li>2024年7月7日（金）：スキー体験キャンペーン開催中の白馬八方尾根スキー場！</li>
+                </ul>
+            </section>
+            <section id="cost">
+                <h2>スキーを始める費用</h2>
+                <p>スキーを始めるための費用は、以下のような要素によって決まります。</p>
+                <ul>
+                    <li>
+                        <strong>スキーセット（スキー板、ブーツ、ポール）:</strong> <span class="price">約50,000円〜100,000円</span>
+                        <img src="ski-set.jpg" alt="スキーセット">
+                    </li>
+                    <li>
+                        <strong>スキーウェア（ジャケット、パンツ）:</strong> <span class="price">約20,000円〜50,000円</span>
+                        <img src="ski-wear.jpg" alt="スキーウェア">
+                    </li>
+                    <li>
+                        <strong>アクセサリー（ゴーグル、ヘルメット、グローブ）:</strong> <span class="price">約10,000円〜30,000円</span>
+                        <img src="accessories.jpg" alt="スキーアクセサリー">
+                    </li>
+                    <li>
+                        <strong>リフト券:</strong> <span class="price">1日券で約4,000円〜7,000円</span>
+                        <img src="lift-ticket.jpg" alt="リフト券">
+                    </li>
+                    <li>
+                        <strong>スキースクールのレッスン料:</strong> <span class="price">1日あたり約5,000円〜10,000円</span>
+                        <img src="ski-school.jpg" alt="スキースクール">
+                    </li>
+                </ul>
+                <p class="total-cost"><strong>合計費用の目安:</strong> 約89,000円〜197,000円</p>
             </section>
 
-            <section id="video">
-                <h2>スキーリゾート紹介動画</h2>
-                <div class="video-container">
-                    <video controls>
-                        <source src="ski-resort.mp4" type="video/mp4">
-                        お使いのブラウザは動画タグに対応していません。
-                    </video>
+            <section id="recommend">
+                <h2>おすすめリゾート</h2>
+                <div class="resort resort-green">
+                    <h3>白馬八方尾根スキー場</h3>
+                    <p>長野県北安曇郡白馬村</p>
+                    <a href="https://www.happo-one.jp/" target="_blank">公式サイト</a>
+                    <img src="hakuba.jpg" alt="白馬八方尾根スキー場">
+                    <p>美しい景色と豊富な積雪量で知られる白馬八方尾根スキー場は、初心者から上級者まで楽しめる多様なコースを提供しています。</p>
+                    <h4>口コミ:</h4>
+                    <p>"初めて訪れましたが、スタッフの対応が素晴らしく、楽しい時間を過ごせました。コースも多様で飽きません。" - 山田太郎</p>
+                    <p>"スキーイン・スキーアウトの便利さが最高です。景色も美しく、また来たいです。" - 佐藤美咲</p>
+                    <p>"施設が充実しており、家族連れでも楽しめました。特にキッズパークが良かったです。" - 鈴木一郎</p>
+                    <img src="hakuba-map.jpg" alt="白馬八方尾根スキー場マップ" class="map-image">
+                </div>
+                <div class="resort resort-yellow">
+                    <h3>ニセコ東急グラウンヒルフ</h3>
+                    <p>北海道虻田郡倶知安町ニセコひらふ１条２丁目９−１</p>
+                    <a href="https://www.grand-hirafu.jp/" target="_blank">公式サイト</a>
+                    <img src="niseko.jpg" alt="ニセコ東急グラウンヒルフ">
+                    <p>世界有数のパウダースノーで有名なニセコグラン・ヒラフ。幅広いコースと豊富なアクティビティが魅力です。</p>
+                    <h4>口コミ:</h4>
+                    <p>"パウダースノーが最高です！また訪れたいと思います。設備も整っており、快適に過ごせました。" - 佐藤花子</p>
+                    <p>"景色が美しく、コースのバリエーションも豊富で飽きることがありません。" - 高橋一郎</p>
+                    <p>"宿泊施設が充実していて、夜も楽しく過ごせました。温泉も最高でした。" - 田中二郎</p>
+                    <img src="niseko-map.jpg" alt="ニセコ東急グラウンヒルフ" class="map-image">
+                </div>
+                <div class="resort resort-red">
+                    <h3>苗場スキー場</h3>
+                    <p>新潟県南魚沼郡湯沢町</p>
+                    <a href="https://www.princehotels.co.jp/ski/naeba/" target="_blank">公式サイト</a>
+                    <img src="naeba.jpg" alt="苗場スキー場">
+                    <p>大規模なリゾート施設と豊富なコースが魅力の苗場スキー場。家族連れにも人気で、ナイター設備も充実しています。</p>
+                    <h4>口コミ:</h4>
+                    <p>"家族で訪れましたが、子供向けのコースも充実していて安心して楽しめました。ナイターも美しかったです。" - 高橋一郎</p>
+                    <p>"スノーボードも楽しめるので、ボーダーにもおすすめです。食事も美味しかったです。" - 渡辺三郎</p>
+                    <p>"アクセスが良く、日帰りでも楽しめるスキー場です。次回はもっと長く滞在したいです。" - 石川四郎</p>
+                    <img src="naeba-map.jpg" alt="苗場スキー場マップ" class="map-image">
                 </div>
             </section>
-        </div>
-        
-        <aside>
-            <section id="calendar">
-                <h2>スキーに適したカレンダー</h2>
-                <div class="calendar-container">
-                    <div class="calendar">
-                        <h3>1月</h3>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>日</th>
-                                    <th>月</th>
-                                    <th>火</th>
-                                    <th>水</th>
-                                    <th>木</th>
-                                    <th>金</th>
-                                    <th>土</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td></td>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3</td>
-                                    <td>4</td>
-                                    <td>5</td>
-                                    <td>6</td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>8</td>
-                                    <td>9</td>
-                                    <td>10</td>
-                                    <td>11</td>
-                                    <td>12</td>
-                                    <td>13</td>
-                                </tr>
-                                <tr>
-                                    <td>14</td>
-                                    <td>15</td>
-                                    <td>16</td>
-                                    <td>17</td>
-                                    <td>18</td>
-                                    <td>19</td>
-                                    <td>20</td>
-                                </tr>
-                                <tr>
-                                    <td>21</td>
-                                    <td>22</td>
-                                    <td>23</td>
-                                    <td>24</td>
-                                    <td>25</td>
-                                    <td>26</td>
-                                    <td>27</td>
-                                </tr>
-                                <tr>
-                                    <td>28</td>
-                                    <td>29</td>
-                                    <td>30</td>
-                                    <td>31</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="calendar">
-                        <h3>2月</h3>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>日</th>
-                                    <th>月</th>
-                                    <th>火</th>
-                                    <th>水</th>
-                                    <th>木</th>
-                                    <th>金</th>
-                                    <th>土</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>5</td>
-                                    <td>6</td>
-                                    <td>7</td>
-                                    <td>8</td>
-                                    <td>9</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-                                    <td>11</td>
-                                    <td>12</td>
-                                    <td>13</td>
-                                    <td>14</td>
-                                    <td>15</td>
-                                    <td>16</td>
-                                    <td>17</td>
-                                </tr>
-                                <tr>
-                                    <td>18</td>
-                                    <td>19</td>
-                                    <td>20</td>
-                                    <td>21</td>
-                                    <td>22</td>
-                                    <td>23</td>
-                                    <td>24</td>
-                                </tr>
-                                <tr>
-                                    <td>25</td>
-                                    <td>26</td>
-                                    <td>27</td>
-                                    <td>28</td>
-                                    <td>29</td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+            <section id="how-to-ski">
+                <h2>スキーのやり方</h2>
+                <h3>1. 準備運動</h3>
+                <p>スキーを始める前に、しっかりと準備運動をしましょう。しておかないと、筋肉痛などになってしまいますので準備運動は必ずしましょう。</p>
+                <h3>2. 基本ポジション</h3>
+                <p>スキー板の幅を肩幅程度に開き、膝を軽く曲げた姿勢を保ちます。最初は感覚がつかめなくて止まることも難しいと思いますが、繰り返すうちに上達しますので頑張りましょう。</p>
+                <img src="ski-position.jpg" alt="基本ポジション" class="instruction-image">
+                <h3>3. 曲がり方</h3>
+                <p>重心を左右に移動させながら、スキー板のエッジを使って曲がります。曲がるときには少しコツが必要で、重心を傾けるだけでなく、足の動きも重要です。</p>
+                <img src="ski-turn.jpg" alt="曲がり方" class="instruction-image">
+                <h3>4. 止まり方</h3>
+                <p>「プルーク」という方法を使ってスピードをコントロールしながら止まります。ハの字に足を開きます。ハの字に開いてスキー板を地面に足を食い込ませる感じでやります。</p>
+                <img src="ski-stop.jpg" alt="止まり方" class="instruction-image">
+            </section>
+            <div class="video-space">
+                <h3>スキーの基本テクニック動画</h3>
+                <div class="video-container">
+                    <iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/0PSW9ZRLASc? autoplay=1"></iframe>
                 </div>
+            </div>
+            <section id="hotels">
+                <h2>スキーリゾート周辺のおすすめホテル</h2>
+                <ul>
+                    <li><a href="https://www.hakuba-hotel.com" target="_blank">ホテル白馬</a>
+                        <p>白馬八方尾根スキー場から徒歩5分</p>
+                        <iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/t6xwlRO8fZM?autoplay=1&mute=1"></iframe>
+                        <p>3,000m級の山々や自然の雄大さを体感できるトレッキングが人気。
+                            ゴンドラやロープウェイ、テレキャビン、リフトを利用して
+                            気軽に楽しめるのも魅力です。 
+                            </p>
+                    </li>
+                    <li><a href="https://www.grand-hirafu.jp/" target="_blank">綾ニセコ</a>
+                        <p>ニセコ東急グラウンヒルフのすぐ近く</p>
+                        <iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/MkDuWsUc_nU?autoplay=1&mute=1"></iframe>
+                        <p>世界に誇る雪質と大規模なスキー場！ニセコの冬を満喫できる朝食付きのプランなど魅力ある数々のプランが人気です。</p>
+                    </li>
+                    <li><a href="https://www.princehotels.co.jp/naeba/" target="_blank">苗場プリンスホテル</a>
+                        <p>苗場スキー場に直結</p>
+                        <iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/DUZqcUcoqUo?autoplay=1&mute=1"></iframe>
+                        <p>多くのニーズに合わせた部屋が数多く用意されており、食事メニューなども人気が高くおすすめのホテルです。</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <aside>
+            <section id="additional-info">
+                <h2>その他スキー情報</h2>
+                <p>スキーに関する追加情報や役立つリンクを紹介します。</p>
+                <ul>
+                    <li><a href="https://www.ski-japan.com" target="_blank">日本のスキー場情報</a></li>
+                    <li><a href="https://www.snowjapan.com" target="_blank">SnowJapan - スキー情報サイト</a></li>
+                    <li><a href="https://www.skiresort.info" target="_blank">Ski Resort Info</a></li>
+                </ul>
+            </section>
+            <section id="ski-shops">
+                <h2>スキー用品購入サイト</h2>
+                <ul>
+                    <li><a href="https://www.example-ski-shop.com" target="_blank">Example Ski Shop</a></li>
+                    <li><a href="https://www.another-ski-shop.com" target="_blank">Another Ski Shop</a></li>
+                    <li><a href="https://www.yet-another-ski-shop.com" target="_blank">Yet Another Ski Shop</a></li>
+                </ul>
+            </section>
+            <section id="today-weather">
+                <h2>本日の天候</h2>
+                <p>スキー場の週間天気予報を確認しましょう。</p>
+                <ul>
+                    <li>白馬八方尾根スキー場：晴れ、最高気温3°C、最低気温-5°C</li>
+                    <li>ニセコグラン・ヒラフ：曇り、最高気温0°C、最低気温-8°C</li>
+                    <li>苗場スキー場：雪、最高気温-2°C、最低気温-10°C</li>
+                </ul>
+                <h3>週間天気予報</h3>
+                <img src="weekly-weather.jpg" alt="週間天気予報" class="weather-image">
             </section>
         </aside>
-    </main>
+    </div>
+    <section id="summary">
+        <h2>スキーについてのまとめ</h2>
+        <p>スキーはやったことのある人、やったことがない人いるかもしれませんが、最初は慣れるまでは少しきついです。あとスキー場は寒いと思うかもしれませんが、その逆でスキーをやっているときはかなり暑いです。
+            また、初めてのリフトはかなり怖いです。正直自分もかなり怖かったです。また足に常に重たいブーツと板をつけているのでかなり疲れます。
+            でも、慣れたら本当に楽しくて、スキー場の一番上から滑るのかとても楽しいし、山なので景色もとてもきれいでやって損はないと思いますので
+            ぜひスキーに行ってみてください。</p>
+    <section id="feedback">
+        <h2>フィードバックフォーム</h2>
+        <form id="feedback-form">
+            <label for="name">名前:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">メールアドレス:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">メッセージ:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">送信</button>
+        </form>
+        <p id="feedback-response" style="display:none;">フィードバックありがとうございます！</p>
+    </section>
     
+    
+</main>
+<aside>
+    <!-- Existing content here -->
+</aside>
+</div>
+<footer>
+</footer>
+<script src="scripts.js"></script>
+</body>
     <footer>
-        <p>&copy; 2024 スキーリゾート. All Rights Reserved.</p>
+        <p>&copy; 2024 スキーリゾートサイト</p>
     </footer>
+</body>
+<body>
+	<header></header>
+	<main></main>
+	<footer></footer>
+	<script>
+        javaScript,js
+	</script>
+    <script>
+        javaScript,js
+      </script>
 </body>
 </html>
